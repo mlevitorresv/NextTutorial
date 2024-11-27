@@ -1,6 +1,12 @@
+import Header from '@/components/Header'
 import React from 'react'
 
 
 export default function Page() {
-  return <h1>Hello, Next.js!</h1>
+  return (
+    <>
+      <Header />
+      <main>Contenido principal de main</main>
+    </>
+  )
 }
